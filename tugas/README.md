@@ -5,6 +5,7 @@ Sebuah aplikasi web sederhana untuk mengelola daftar tugas (To-Do List). Aplikas
 💻 Fitur
 
 Aplikasi ini memiliki beberapa fitur utama:
+
 1. **Tambah Tugas**: Pengguna dapat menambahkan tugas baru melalui kolom input. Penambahan tugas dapat dilakukan dengan menekan tombol "Tambah" atau dengan menekan tombol `Enter` pada keyboard.
 2. **Tandai Selesai**: Terdapat checkbox pada setiap tugas. Jika dicentang, teks tugas akan dicoret (strikethrough) sebagai penanda bahwa tugas telah selesai.
 3. **Edit Tugas**: Pengguna dapat mengubah teks tugas yang sudah ada dengan menekan tombol "Edit" (tidak dapat digunakan apabila tugas sudah ditandai selesai).
@@ -34,4 +35,5 @@ Proyek ini terdiri dari 3 file utama:
 - JavaScript
 
 ---
-*Dibuat untuk keperluan pembelajaran dasar Web Development (HTML, CSS, JavaScript).*
+
+_Dibuat untuk keperluan pembelajaran dasar Web Development (HTML, CSS, JavaScript)._
