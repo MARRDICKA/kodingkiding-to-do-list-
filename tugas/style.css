@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #1e1f23;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    color: #333;
+}
+
+.info {
+    text-align: center;
+
+    color: #777;
+
+    margin-bottom: 20px;
+}
+
+.input-area {
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    outline: none;
+}
+
+#taskInput:focus {
+    border-color: #4caf50;
+}
+
+#addButton {
+    padding: 12px 18px;
+
+    border: none;
+
+    background: #4caf50;
+
+    color: white;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+#addButton:hover {
+    background: #43a047;
+}
+
+#taskList {
+    list-style: none;
+}
+
+.task {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    background: #f8f9fa;
+
+    border-radius: 8px;
+}
+
+.task span {
+    flex: 1;
+
+    color: #333;
+
+    word-break: break-word;
+}
+
+.task.completed span {
+    text-decoration: line-through;
+
+    color: #999;
+}
+
+/* Tombol Edit */
+.edit-button {
+    border: none;
+
+    background: #2196f3;
+
+    color: white;
+
+    padding: 7px 10px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background: #1976d2;
+}
+
+/* Tombol Hapus */
+.delete-button {
+    border: none;
+
+    background: #f44336;
+
+    color: white;
+
+    padding: 7px 10px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background: #d32f2f;
+}
+
+.empty {
+    text-align: center;
+
+    color: #999;
+
+    padding: 20px;
+}
